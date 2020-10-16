@@ -3,8 +3,8 @@ def square_array(numbers)
   new_numbers = [9,10,16,25]
   new_array = []
   b=2
-  while numbers.length.times do |i|
-    new_array.push(numbers[i]**b)
-  end
+    numbers.length.times do |i|
+      new_array.push(numbers[i]**b)
+    end
   new_array
 end
