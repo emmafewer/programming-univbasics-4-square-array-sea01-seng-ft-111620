@@ -10,4 +10,5 @@ def square_array(numbers)
     new_array_2.push(other_numers[i]**b)
   end
   new_array
+  new_array_2
 end
